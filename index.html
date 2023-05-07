@@ -5,15 +5,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>fruta e fruto</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="src/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
   <title>fruto & fruta</title>
 </head>
 
 <body>
-  
-
+  <header>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">Frutas & Frutos</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,8 +32,9 @@
       </ul>
     </div>
   </nav>
-
-  <div class="bd-example">
+</header>
+<main>
+  <section id = "carrossel">
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval = "5000">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -55,35 +55,73 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
+  <section id = "titulo">
   <h2 class="text-center fonte-titulo color-special mt-5">Receitas para economizar e ganhar saúde</h2>
   <p class="text-center text-secondary mb-5">Nossas receitas ajudam você a aproveitar melhor os alimentos, economizar, ganhar tempo e praticidade</p>
+  </section>
 
-  <img src="src/img/receita-abacate.jpg" alt="tigela com salada de abacate, vista superior">
-  <h3>Tigela de abacate</h3>
-  <p>Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
+  <section id = "cards" class="container bg-light container-fluid">
+    <div class="row justify-content-center">
+    <article class="card borda-card card-largura col-12 p-0 m-4 col-md-4">
+    <img src="src/img/receita-abacate.jpg" class="card-img-top card-imagem" alt="tigela com salada de abacate, vista superior">
+    <div class="card-body">
+      <h5 class="card-title">Tigela de abacate</h5>
+      <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
+      <a href="#" class="btn botao-card">Confira a Receita</a>
+    </div>
+  </article>
 
-  <img src="src/img/receita-kiwi.jpg" alt="tigela de mingau com kiwi, vista superior">
-  <h3>Salada de kiwi</h3>
-  <p>Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
+  <article class="card borda-card card-largura col-12 p-0 m-4 col-md-4">
+    <img src="src/img/receita-kiwi.jpg" class="card-img-top card-imagem" alt="tigela com salada kiwi, vista superior">
+    <div class="card-body">
+      <h5 class="card-title">Salada de kiwi</h5>
+      <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
+      <a href="#" class="btn botao-card">Confira a Receita</a>
+    </div>
+  </article>
 
-  <img src="src/img/receita-mix.jpg" alt="prato com mix de vegetais e mão de pessoa adicionando azeite, vista superior">
-  <h3>Mix de vegetais</h3>
-  <p>Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
+  <article class="card borda-card card-largura col-12 p-0 m-4 col-md-4">
+    <img src="src/img/receita-mix.jpg" class="card-img-top card-imagem" alt="prato com mix de vegetais e mão de pessoa adicionando azeite, vista superio">
+    <div class="card-body">
+      <h5 class="card-title">Mix de vegetais</h5>
+      <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
+      <a href="#" class="btn botao-card">Confira a Receita</a>
+    </div>
+  </article>
 
-  <img src="src/img/receita-pimentoes.jpg" alt="prato de salada de pimentões com alguns ingredientes ao lado, vista superior">
-  <h3>Pimentões à Juliana</h3>
-  <p>Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
+  <article class="card borda-card card-largura col-12 p-0 m-4 col-md-4">
+    <img src="src/img/receita-pimentoes.jpg" class="card-img-top card-imagem" alt="prato de salada de pimentões com alguns ingredientes ao lado, vista superior">
+    <div class="card-body">
+      <h5 class="card-title">Pimentões à Juliana</h5>
+      <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
+      <a href="#" class="btn botao-card">Confira a Receita</a>
+    </div>
+  </article>
 
-  <img src="src/img/receita-oriental.jpg" alt="tigela com salada de vegetais estilo oriental, vista de cima">
-  <h3>Prato oriental</h3>
-  <p>Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
+  <article class="card borda-card card-largura col-12 p-0 m-4 col-md-4">
+    <img src="src/img/receita-oriental.jpg" class="card-img-top card-imagem" alt="tigela com salada de vegetais estilo oriental, vista de cima">
+    <div class="card-body">
+      <h5 class="card-title">Prato oriental</h5>
+      <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
+      <a href="#" class="btn botao-card">Confira a Receita</a>
+    </div>
+  </article>
 
-  <img src="src/img/receita-beterrabas.jpg" alt="tigela com beterrabas e dentes de alho assados em primeiro plano, com ingredientes ao fundo">
-  <h3>Beterrabas assadas</h3>
-  <p>Receita refrescante e cheia de vitaminas para o seu café da manhã!
-  </p>
+  <article class="card borda-card card-largura col-12 p-0 m-4 col-md-4">
+    <img src="src/img/receita-beterrabas.jpg" class="card-img-top card-imagem" alt="tigela com beterrabas e dentes de alho assados em primeiro plano, com ingredientes ao fundo">
+    <div class="card-body">
+      <h5 class="card-title">Beterrabas assadas</h5>
+      <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
+      <a href="#" class="btn botao-card">Confira a Receita</a>
+    </div>
+  </article>
+</div>
+</section>
+</main>
+
+<footer></footer>
 
   <p>contato:<a href="mailto:email@frutafruto.com.br">email@frutafruto.com.br</a></p>
 

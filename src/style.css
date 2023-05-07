@@ -16,3 +16,21 @@
 .color-special {
     color: darkred;
 }
+
+.botao-card {
+    background-color: darkred;
+    color: white;
+}
+
+.borda-card {
+    border-color: darkred;;
+}
+
+.card-imagem {
+    object-fit: cover;
+    height: 200px;
+}
+
+.card-largura {
+    max-width: 18rem;
+}
