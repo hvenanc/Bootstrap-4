@@ -15,7 +15,7 @@
 
 .fonte-navbar {
     font-family: 'Pacifico', cursive;
-    color: darkred;
+    color: darkred!important;
 }
 
 .color-special {
@@ -25,6 +25,7 @@
 .botao-card {
     background-color: darkred;
     color: white;
+    border-color: white;
 }
 
 .borda-card {
